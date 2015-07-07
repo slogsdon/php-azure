@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "317aa3c512bcdf80e49a438320cc5e67",
+    "packages": [
+        {
+            "name": "slogsdon/fp-web",
+            "version": "0.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slogsdon/php-fp-web.git",
+                "reference": "3a8cf4f58b2aeaef61b851de78ffe9fb3ad5ce47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slogsdon/php-fp-web/zipball/3a8cf4f58b2aeaef61b851de78ffe9fb3ad5ce47",
+                "reference": "3a8cf4f58b2aeaef61b851de78ffe9fb3ad5ce47",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "~4.7",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/App.php",
+                    "src/Request.php",
+                    "src/Response.php",
+                    "src/Route.php",
+                    "src/Util.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shane Logsdon",
+                    "email": "shane@shanelogsdon.com"
+                }
+            ],
+            "description": "test bed for a functional web toolkit",
+            "time": "2015-07-07 00:35:37"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

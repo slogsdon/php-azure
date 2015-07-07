@@ -1,0 +1,5 @@
+{
+  "require": {
+      "slogsdon/fp-web": "*"
+  }
+}
